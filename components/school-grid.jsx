@@ -177,7 +177,6 @@ export default function SchoolGrid() {
               </p>
               <Link href="/addSchool">
                 <Button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-xl font-semibold shadow-lg transform hover:scale-105 transition-all duration-200">
-                  <PlusCircle className="h-5 w-5 mr-2" />
                   Add Your School
                 </Button>
               </Link>
