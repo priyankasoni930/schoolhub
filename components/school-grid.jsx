@@ -160,20 +160,6 @@ export default function SchoolGrid() {
                       </span>
                     </div>
                   </div>
-
-                  <div className="pt-2 border-t border-gray-100">
-                    <div className="flex justify-between items-center">
-                      <span className="text-xs text-gray-400 font-medium">
-                        School ID: {school.id}
-                      </span>
-                      <div className="flex space-x-1">
-                        <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                        <span className="text-xs text-green-600 font-medium">
-                          Active
-                        </span>
-                      </div>
-                    </div>
-                  </div>
                 </CardContent>
               </Card>
             ))}

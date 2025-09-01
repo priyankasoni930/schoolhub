@@ -38,7 +38,6 @@ export default function Navigation() {
                     : "hover:bg-blue-50 text-gray-700"
                 } transition-all duration-200 px-6 py-2 rounded-xl font-medium`}
               >
-                <School className="h-4 w-4 mr-2" />
                 Browse Schools
               </Button>
             </Link>
@@ -51,7 +50,6 @@ export default function Navigation() {
                     : "hover:bg-green-50 text-gray-700"
                 } transition-all duration-200 px-6 py-2 rounded-xl font-medium`}
               >
-                <PlusCircle className="h-4 w-4 mr-2" />
                 Add School
               </Button>
             </Link>
