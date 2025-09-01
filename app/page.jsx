@@ -83,10 +83,10 @@ export default function HomePage() {
               </CardDescription>
             </CardHeader>
             <CardContent className="relative px-8 pb-8">
-              <Link href="/addSchool">
-                <Button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg">
-                  <PlusCircle className="mr-2 h-5 w-5" />
-                  Start Adding Schools
+              <Link href="/addSchool" className="block">
+                <Button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-medium py-4 px-8 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-base flex items-center justify-center min-h-[3rem] whitespace-nowrap">
+                  <PlusCircle className="mr-2 h-5 w-5 flex-shrink-0" />
+                  <span>Start Adding Schools</span>
                 </Button>
               </Link>
               <div className="flex items-center justify-center mt-4 space-x-2 text-sm text-gray-500">
@@ -109,10 +109,10 @@ export default function HomePage() {
               </CardDescription>
             </CardHeader>
             <CardContent className="relative px-8 pb-8">
-              <Link href="/showSchools">
-                <Button className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg">
-                  <Eye className="mr-2 h-5 w-5" />
-                  Browse All Schools
+              <Link href="/showSchools" className="block">
+                <Button className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-medium py-4 px-8 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-base flex items-center justify-center min-h-[3rem] whitespace-nowrap">
+                  <Eye className="mr-2 h-5 w-5 flex-shrink-0" />
+                  <span>Browse All Schools</span>
                 </Button>
               </Link>
               <div className="flex items-center justify-center mt-4 space-x-2 text-sm text-gray-500">
